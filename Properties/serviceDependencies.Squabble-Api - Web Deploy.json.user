@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "identityapp1": {
+      "restored": true,
+      "restoreTime": "2021-09-23T02:38:34.9347926Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2021-09-23T02:32:34.844352Z"
+    }
+  },
+  "parameters": {
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "bbe82037-4cb3-4e61-858c-f2fce4777b1e"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "squabble"
+    }
+  }
+}

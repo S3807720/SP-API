@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAW0Ij8kDOPk2GYRynuZw7vAAAAAACAAAAAAAQZgAAAAEAACAAAABzy75QpQy0FaIo590PcGSmABvWoygIJd2OKxz/fMOhjwAAAAAOgAAAAAIAACAAAADAbmO0VQmL/rGXVrVM0L83EzdYA5a0N4qzBCEkZk1Xx4AAAABmLoGYQqA3AAhhmJMxDUwXtUijXmBAErEmD28+K0AvJj6dfexp32162uFZLXDkjVvOCe89XVDiuwWZB3Fc3ONW6DT8bYOLejNxjzuhGMD808I+VM+iVDB7EwJF6Rp7WYc6adHgaAD5wJlQi5ENV1P1P3a38PZguRfd8bFtrgL1QEAAAAD8WrUbIpEAyZyFirXx9A47O06wkrF1LHBHzTQ5TWqU5H4ocmXdrno3bXubrWqKdGHTaaFR9fJeq8gg6X29MTut</EncryptedPassword>
+    <History>False|2021-09-13T02:34:53.9006974Z;False|2021-09-13T12:22:13.5206067+10:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="SquabbleContext">
+      <Value>Server=tcp:squabble-server.database.windows.net,1433%3bInitial Catalog=squabble%3bPersist Security Info=False%3bUser ID=admin123%3bPassword=abc123ABC!%40#%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

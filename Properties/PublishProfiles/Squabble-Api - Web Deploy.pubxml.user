@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAW0Ij8kDOPk2GYRynuZw7vAAAAAACAAAAAAAQZgAAAAEAACAAAACRqmHxE9NpVZ0GRbqk7XuRgjdasyJqYqbW6nLzlOD7jgAAAAAOgAAAAAIAACAAAAAAg0+cDwqQCWjyyGf2/+mPxBOmOlGqngBveMTuBw9Cc4AAAADag/KTlqnyo5azP/VMYPT+UId99wW9DhuGuyprgaM8tyghrAGjlyj78QAk2tUvpmIXsq6HWXp8Mb7MNY/M0/64wx5lcTjg9QF/08r7vQz2Z1KtIIF3q5kuPKT65fahRsdxgBaziA090usloPKedMNJ6GRfuXPqYWSa9PnU0lvBHEAAAACBtR8XI4u6EoD9dl9fLtZgGabhldONYD6HkmLSVi4BhBB2JxmLRhh7jVR6dR/nNypMPoKKB/gXWIR+ZnQHXdYe</EncryptedPassword>
+    <History>True|2021-09-23T02:38:57.0202482Z;True|2021-09-23T12:22:28.7098223+10:00;True|2021-09-23T11:41:30.9580190+10:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="Squabble.Data.SquabbleContext">
+      <Value>Data Source=tcp:squabble-server.database.windows.net,1433%3bInitial Catalog=squabble%3bUser Id=admin123%40squabble-server%3bPassword=abc123ABC!%40#</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAW0Ij8kDOPk2GYRynuZw7vAAAAAACAAAAAAAQZgAAAAEAACAAAAAr+tv18F2h4s2xQf0BdhPn2hkMQN51NNbfYqeliXM0jwAAAAAOgAAAAAIAACAAAACMWJuWHoj38q8k4Z5TEuBj6X9xRTUpmBSeH60NK0RMgoAAAABFqM31yxgvSF2kSnVnu3hMxC479YEKRETkNSokV6E4KkHxBM39cs0LajBsPIZBFtAqEvNVDMR0m0qRgPXyPo9UN4so17KZHE1+QZ4Bnz+7sf8eaiybZiJR9ON/TeOhVQvnkNw1EY1svz0Lqb8dmjmJvYjbd+EvUTE+jIBcJm91qUAAAABrS5NLjbcEpSJzPlI863ZQQClLX5QDs5JPZkD5xp7e/jEcjN4PtTuTOpPmTH9prtxMH1RDUoHqwrs7x7TSX+7z</EncryptedPassword>
+    <History>True|2021-09-23T02:11:28.7716404Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="SquabbleContext">
+      <Value>Data Source=tcp:squabble-server.database.windows.net,1433%3bInitial Catalog=squabble%3bUser Id=admin123%40squabble-server%3bPassword=abc123ABC!%40#</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

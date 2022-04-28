@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAW0Ij8kDOPk2GYRynuZw7vAAAAAACAAAAAAAQZgAAAAEAACAAAAACOpRJ6jXX4+48vBQa+DWSreYsxHptj883xhHo522h+AAAAAAOgAAAAAIAACAAAAC6+R4rkV3Dka5HKbMTpLI3TEPwGYt7UN0W1O51Nuj5IIAAAAD9jhyJJIOkzj+OVznYJmfKDhPAhKCq9wvln1wKkyx8PL8X5QkWd9zAS8yfyed/MkTT9YRIfqjoEksqj8xjZjYvoH21vnIBzwrzDP6M/l7mmeZfPsuas79/hOMrsGXhNljfsu/a9/e5d13uHMmOH/nc5JMNthHCYeXpCGqu9icmTEAAAAAfgpmN6XgmMH8fEn4bhHUXvkR6qkK1VM5FkGcFkQt/w8YtB591vM4nDdMXre7DaY0765W7VoPEUYi8+z6iP27O</EncryptedPassword>
+    <History>True|2021-09-15T06:59:15.6468960Z;True|2021-09-15T16:56:39.3816929+10:00;True|2021-09-15T16:54:07.4310089+10:00;True|2021-09-15T12:42:21.1096183+10:00;True|2021-09-15T12:41:32.6235875+10:00;True|2021-09-15T12:40:23.5197092+10:00;True|2021-09-15T12:39:16.6460256+10:00;True|2021-09-15T12:37:42.3591748+10:00;True|2021-09-15T12:36:49.3147872+10:00;True|2021-09-15T12:33:47.6621258+10:00;True|2021-09-15T12:30:28.8948710+10:00;True|2021-09-15T11:39:57.5496995+10:00;False|2021-09-15T11:34:37.7095850+10:00;True|2021-09-15T11:30:25.4101603+10:00;False|2021-09-15T11:30:02.3134147+10:00;False|2021-09-15T11:29:29.5172915+10:00;False|2021-09-15T11:26:44.6623334+10:00;True|2021-09-15T11:25:46.1879143+10:00;True|2021-09-14T15:09:31.3799162+10:00;False|2021-09-14T15:08:53.0761991+10:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="SquabbleContext">
+      <Value>Server=tcp:squabble-server.database.windows.net,1433%3bInitial Catalog=squabble%3bPersist Security Info=False%3bUser ID=admin123%3bPassword=abc123ABC!%40#%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

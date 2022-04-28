@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAW0Ij8kDOPk2GYRynuZw7vAAAAAACAAAAAAAQZgAAAAEAACAAAAA0eHI5t6j6EoRMBEOxoanbDQgWZp8Q2f+vWzIJHlm5JAAAAAAOgAAAAAIAACAAAABwHqpFg3tozBEU8UWvsHwdS/K+8cedO/HqEd+N0T1KsIAAAABNcbRxQg1gt8XXgMmGsRN4Yyyw7fuCNPM1Ij2e8HTkczfZ/Bpo0vP4sKOP2ZPmFyyK9csk2etm8gQr3YgV2IkUXc7wjDIVCxgaw65z9Cj4EKc2dRTtadSAMVPzMdfXqjS0lkOkqfLtYzgw254I9Lnne/Yep3qQXQU+kQ+4DkEcKkAAAADlAb4jZVYvuEUN5MDeuWOT6EEdaadxm8xBPDEl1vP/QB00yJ4OZ1AVkwUx5yOpwE5eXmCatkd2espK5K0W1pb9</EncryptedPassword>
+    <History>False|2021-09-15T10:17:00.4916388Z;True|2021-09-15T18:21:01.2437564+10:00;True|2021-09-15T18:18:19.6784843+10:00;True|2021-09-15T18:17:15.2103192+10:00;True|2021-09-15T18:15:55.6628773+10:00;True|2021-09-15T18:12:54.8178305+10:00;True|2021-09-15T18:12:01.0203874+10:00;True|2021-09-15T18:09:26.7230651+10:00;True|2021-09-15T17:21:49.9073636+10:00;True|2021-09-15T17:19:37.2789021+10:00;True|2021-09-15T17:16:58.1966335+10:00;True|2021-09-15T17:10:07.2425427+10:00;True|2021-09-15T17:03:40.2646067+10:00;True|2021-09-15T17:02:01.5488162+10:00;True|2021-09-15T16:57:29.4452642+10:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="SquabbleContext">
+      <Value>Server=tcp:squabble-server.database.windows.net,1433%3bInitial Catalog=squabble%3bPersist Security Info=False%3bUser ID=admin123%3bPassword=abc123ABC!%40#%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

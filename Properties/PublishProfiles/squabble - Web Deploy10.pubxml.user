@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAW0Ij8kDOPk2GYRynuZw7vAAAAAACAAAAAAAQZgAAAAEAACAAAABKLAyhPmQFbhZJYjZ2izsVuoUkRxaIXm8KDdCnAs2zkAAAAAAOgAAAAAIAACAAAAD0eU37q5gi09drMegAesJgWaq6vMW4otzItBC35nE1DIAAAACrCQOsrC6cFyZ2wg5BHzso6eDNdCsKbAiZK8ZLPrvk+J/u9e9PZRTRak7+Etj12h5/KPUhzEh9hWcH/YabEfSC0C6VvRcMXpKS7Z/CRxdoZL3c8e0hug6VWJpPU6zQslAr9U/hltBvN1U8Bc0qwqB5xsyfuKNeWV0PSIczRD4UIUAAAAAfissOhCTFPCvZQ1veCLtcBQos5DmjqPR5CAeRCg/xboJSxzLpO7mGVCzuMVeEcC1AZB8tQwacEcjVJJ+/Cx7A</EncryptedPassword>
+    <History>True|2021-09-24T04:45:07.0737373Z;True|2021-09-24T14:34:07.9950224+10:00;True|2021-09-24T12:01:46.7968356+10:00;True|2021-09-24T11:57:55.0643832+10:00;True|2021-09-24T11:55:46.3197977+10:00;False|2021-09-24T11:52:45.1810932+10:00;True|2021-09-23T16:45:57.1910394+10:00;True|2021-09-23T16:44:22.4817494+10:00;True|2021-09-23T16:42:36.6897547+10:00;True|2021-09-23T16:41:54.8092591+10:00;True|2021-09-23T16:40:26.6250415+10:00;True|2021-09-23T16:30:32.2253129+10:00;True|2021-09-23T13:25:27.1674554+10:00;True|2021-09-23T13:15:43.7543117+10:00;True|2021-09-23T13:07:31.5260389+10:00;True|2021-09-23T13:03:32.0587463+10:00;True|2021-09-23T12:59:13.7408546+10:00;True|2021-09-23T12:55:51.9516713+10:00;True|2021-09-23T12:53:15.3586485+10:00;True|2021-09-23T12:43:01.4176734+10:00;True|2021-09-23T12:09:28.1433889+10:00;True|2021-09-23T11:32:09.2687041+10:00;True|2021-09-20T11:32:22.1121628+10:00;True|2021-09-17T13:15:33.3629760+10:00;True|2021-09-15T20:24:56.0404422+10:00;True|2021-09-15T20:20:57.8822467+10:00;True|2021-09-15T20:17:56.1979826+10:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="SquabbleContext">
+      <Value>Data Source=tcp:squabble-server.database.windows.net,1433%3bInitial Catalog=squabble%3bUser Id=admin123%40squabble-server%3bPassword=abc123ABC!%40#</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="Squabble.Data.SquabbleContext">
+      <Value>Data Source=tcp:squabble-server.database.windows.net,1433%3bInitial Catalog=squabble%3bUser Id=admin123%40squabble-server%3bPassword=abc123ABC!%40#</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
